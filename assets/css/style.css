@@ -1360,14 +1360,20 @@ section {
 .cliens {
   padding: 12px 0;
   text-align: center;
-  
+}
+
+.cliens .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cliens img {
-  max-width: 45%;
+  max-width: 100%; /* Ensures images are responsive */
+  width: auto; /* Ensures images are responsive */
+  height: auto; /* Ensures images are responsive */
   transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
+  padding: 15px;
   filter: grayscale(100);
 }
 
@@ -1378,9 +1384,10 @@ section {
 
 @media (max-width: 768px) {
   .cliens img {
-    max-width: 40%;
+    max-width: 70%; /* Adjust as needed */
   }
 }
+
 
 /*Footer*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
