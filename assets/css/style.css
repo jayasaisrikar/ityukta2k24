@@ -1017,6 +1017,7 @@ section {
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #5846f9;
+  border-radius: 15px;
 }
 
 .portfolio #portfolio-flters li:last-child {
