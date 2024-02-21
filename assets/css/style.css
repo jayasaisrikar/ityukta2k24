@@ -577,6 +577,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/* Base styles for .about section */
 .about {
   background: linear-gradient(to bottom, #E0E5EC, #F0F4F9, #F8FAFC, #FDFEFE, #FCFCFD);
   padding: 40px;
@@ -636,6 +637,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
 
 /*--------------------------------------------------------------
 #counts
@@ -1015,6 +1017,7 @@ section {
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #5846f9;
+  border-radius: 15px;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1085,6 +1088,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
+  border-radius: 15px;
 }
 
 .portfolio .portfolio-wrap:hover::before {
