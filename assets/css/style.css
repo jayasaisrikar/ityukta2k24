@@ -62,6 +62,7 @@ h6 {
 /*--------------------------------------------------------------
 #preloader styles(alternative 2)
 --------------------------------------------------------------*/
+
 #preloader {
   position: fixed;
   top: 0;
@@ -913,7 +914,7 @@ section {
   padding: 30px;
   border-radius: 5px;
   background: #fff;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .team .member .pic {
@@ -923,7 +924,7 @@ section {
 }
 
 .team .member .pic img {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 .team .member:hover {
@@ -942,7 +943,7 @@ section {
 }
 
 .team .member span {
-  display: block;
+  display: inline;
   font-size: 15px;
   padding-bottom: 10px;
   position: relative;
