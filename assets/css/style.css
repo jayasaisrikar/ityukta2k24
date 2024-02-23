@@ -533,6 +533,43 @@ h6 {
   }
 }
 
+/*Live updates scroll section*/
+.live-container{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+  width: 100%;
+}
+.glass-container {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('background.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-updates {
+  width: 80%; /* Set the width to 80% of the parent container */
+  max-width: 600px;
+  
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.live-updates p {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+}
+
 /*--------------------------------------------------------------
 #general sections
 --------------------------------------------------------------*/
