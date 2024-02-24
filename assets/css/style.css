@@ -421,9 +421,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: cover;
-	animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #7b27d8, #ed3c0d, #ee7752, #23d5ab, #18d26e);
+	background-size: 400% 400%;
+  animation: gradient 3.5s ease infinite;
 	height: 100vh;
 }
 
@@ -775,7 +775,7 @@ section {
 
 /*--------------------------------------------------------------
 # Services
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -904,6 +904,7 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+*/
 
 /*--------------------------------------------------------------
 #features
