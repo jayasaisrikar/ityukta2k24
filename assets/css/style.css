@@ -421,8 +421,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #7b27d8, #ed3c0d, #ee7752, #23d5ab, #18d26e);
-	background-size: 400% 400%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: cover;
   animation: gradient 3.5s ease infinite;
 	height: 100vh;
 }
@@ -549,41 +549,7 @@ h6 {
 }
 
 /*Live updates scroll section*/
-.live-container{
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  
-  width: 100%;
-}
-.glass-container {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('background.jpg');
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.live-updates {
-  width: 80%; /* Set the width to 80% of the parent container */
-  max-width: 600px;
-  
-  max-height: 400px;
-  overflow-y: scroll;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.live-updates p {
-  margin: 0 0 20px 0;
-  padding: 0;
-  font-size: 16px;
-  color: #333;
-}
 
 /*--------------------------------------------------------------
 #general sections
@@ -772,139 +738,6 @@ section {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);
 }
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------
-.services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-}
-
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #2c4964;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
-*/
 
 /*--------------------------------------------------------------
 #features
@@ -1289,7 +1122,7 @@ section {
 
 /*--------------------------------------------------------------
 #contactform
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .contact{
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
@@ -1411,6 +1244,7 @@ section {
     transform: rotate(360deg);
   }
 }
+*/
 /*--------------------------------------------------------------
 #breadcrumbs
 --------------------------------------------------------------*/
