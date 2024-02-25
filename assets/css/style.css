@@ -132,12 +132,13 @@ h6 {
 
 #header .logo a {
   color: #fff;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   font-weight: 700;
 }
 
 #header .logo img {
   max-width: 50%;
+  
 }
 /*--------------------------------------------------------------
 #nav menu
