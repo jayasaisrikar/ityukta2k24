@@ -133,12 +133,13 @@ h6 {
 
 #header .logo a {
   color: #fff;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   font-weight: 700;
 }
 
 #header .logo img {
   max-width: 50%;
+  
 }
 /*--------------------------------------------------------------
 #nav menu
@@ -424,7 +425,11 @@ h6 {
   width: 100%;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: cover;
+<<<<<<< HEAD
 	animation: gradient 15s ease infinite;
+=======
+  animation: gradient 3.5s ease infinite;
+>>>>>>> 66b15de7c640b3f8a890a3396e6d1d277b54f5fe
 	height: 100vh;
 }
 
@@ -550,41 +555,7 @@ h6 {
 }
 
 /*Live updates scroll section*/
-.live-container{
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  
-  width: 100%;
-}
-.glass-container {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('background.jpg');
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.live-updates {
-  width: 80%; /* Set the width to 80% of the parent container */
-  max-width: 600px;
-  
-  max-height: 400px;
-  overflow-y: scroll;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.live-updates p {
-  margin: 0 0 20px 0;
-  padding: 0;
-  font-size: 16px;
-  color: #333;
-}
 
 /*--------------------------------------------------------------
 #general sections
@@ -775,6 +746,7 @@ section {
 }
 
 /*--------------------------------------------------------------
+<<<<<<< HEAD
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -907,6 +879,8 @@ section {
 }
 
 /*--------------------------------------------------------------
+=======
+>>>>>>> 66b15de7c640b3f8a890a3396e6d1d277b54f5fe
 #features
 --------------------------------------------------------------*/
 .team .member {
@@ -1289,7 +1263,7 @@ section {
 
 /*--------------------------------------------------------------
 #contactform
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .contact{
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
@@ -1411,6 +1385,7 @@ section {
     transform: rotate(360deg);
   }
 }
+*/
 /*--------------------------------------------------------------
 #breadcrumbs
 --------------------------------------------------------------*/
@@ -1502,6 +1477,10 @@ section {
 
 
 /*Footer*/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66b15de7c640b3f8a890a3396e6d1d277b54f5fe
 
 
 .footer {
