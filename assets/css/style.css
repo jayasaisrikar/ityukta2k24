@@ -1523,13 +1523,16 @@ section {
 @media screen and (max-width:576px){
   .p{
     text-align: justify;
+    font-size: 0.9em;
   }
   
   .p1{
     text-align: justify;
+    font-size: 0.9em;
   }
   
   .p2{
     text-align: justify;
+    font-size: 0.9em;
   }
 }
