@@ -1507,3 +1507,13 @@ section {
   font-size: large;
   color: #E0E5EC;
 }
+
+.p{
+  text-align: justify;
+}
+
+@media screen and (max-width:576px){
+  .p{
+    text-align:justify;
+  }
+}
