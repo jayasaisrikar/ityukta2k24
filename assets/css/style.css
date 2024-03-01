@@ -1792,9 +1792,23 @@ section {
   font-size: large;
   color: #E0E5EC;
 }
+<<<<<<< HEAD
 .p{
   text-align: justify;
 
+=======
+
+.p{
+  text-align: justify;
+}
+
+.p1{
+  text-align: justify;
+}
+
+.p2{
+  text-align: justify;
+>>>>>>> 16c669d6a3c19fd2d73d2d636536935227dde125
 }
 
 @media screen and (max-width:576px){
@@ -1802,5 +1816,19 @@ section {
     text-align: justify;
     font-size: 0.9em;
   }
+<<<<<<< HEAD
 }
 
+=======
+  
+  .p1{
+    text-align: justify;
+    font-size: 0.9em;
+  }
+  
+  .p2{
+    text-align: justify;
+    font-size: 0.9em;
+  }
+}
+>>>>>>> 16c669d6a3c19fd2d73d2d636536935227dde125
