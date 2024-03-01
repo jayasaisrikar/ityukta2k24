@@ -6,7 +6,39 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-attachment:fixed;
 }
+/* Center the text and increase font size */
+#hero .new-hero {
+  text-align: center;
+}
+
+
+
+#hero .new-hero h1 {
+  font-family: 'YourFont', sans-serif;
+  font-size: 6rem; /* Adjust the font size as needed */
+
+}
+
+.subtext{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4.5em;
+  text-align: center;
+  
+}
+
+/* Font style for the hero section */
+#hero h1 {
+    font-family: 'YourFont', sans-serif; /* Change 'YourFont' to the desired font family */
+    font-size: 2.5rem; /* Adjust the font size as needed */
+}
+
+#hero h2 {
+    font-family: 'YourFont', sans-serif; /* Change 'YourFont' to the desired font family */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
 
 a {
   color: #5846f9;
@@ -115,7 +147,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-color:#002244;
   padding: 12px 0;
   
   
@@ -344,27 +376,23 @@ h6 {
 }
 
 .navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  background-color: black;
   overflow-y: auto;
   transition: 0.3s;
-}
-
-.navbar-mobile>ul>li {
-  padding: 0;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #fff; /* Change link color to white */
+  text-align: center; /* Align links in center */
 }
 
 .navbar-mobile a:hover:before,
@@ -376,7 +404,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5846f9;
+  color: white;
 }
 
 .navbar-mobile .getstarted,
@@ -423,15 +451,60 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+ background: url("../img/background1.jpg");
+ z-index: -1;
+
+
 	background-size: cover;
-<<<<<<< HEAD
-	animation: gradient 15s ease infinite;
-=======
-  animation: gradient 3.5s ease infinite;
->>>>>>> 66b15de7c640b3f8a890a3396e6d1d277b54f5fe
-	height: 100vh;
+  height: 100vh;
+	
 }
+
+
+  #hero-but{
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  #hero {
+      background-position: center;
+  }
+
+  #hero-but {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+
+  #hero .btn-get-started,
+  #hero .btn-get-started1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 14px; /* Decrease font size */
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 7px 15px; /* Decrease padding */
+      border-radius: 30px;
+      transition: 0.5s;
+      margin-top: 30px;
+      color: #fff;
+      border: 2px solid #fff;
+      margin-left: 6px;
+  }
+
+  #hero .btn-get-started:hover,
+  #hero .btn-get-started1:hover {
+      background: #fff;
+      color: #5846f9;
+  }
+}
+
 
 #hero .container,
 #hero .container-fluid {
@@ -441,15 +514,15 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 64px;
   color: #fff;
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
-  margin: 10px 0 0 0;
-  font-size: 20px;
+  margin: 20px 0 0 0;
+  font-size: 2rem;
 }
 
 #hero .btn-get-started {
@@ -459,14 +532,33 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
   border: 2px solid #fff;
 }
 
+#hero .btn-get-started1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-left: 6px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 #hero .btn-get-started:hover {
+  background: #fff;
+  color: #5846f9;
+}
+#hero .btn-get-started1:hover {
   background: #fff;
   color: #5846f9;
 }
@@ -519,20 +611,37 @@ h6 {
     width: 60%;
   }
 }
-
+/*
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
   }
+  #hero{
+    background-position: center;
+    height: 100vh;
+  }
 }
+*/
 
 @media (max-width: 575px),
 (max-height: 600px) {
   #hero {
-    height: auto;
+    height:100vh;
   }
 }
+@media screen and (max-width:576px) {
+  #hero .new-hero h1 {
+    font-family: 'YourFont', sans-serif;
+    font-size: 4em; 
+    line-height:1.5;
+    text-align: center;
+  }
 
+  .subtext{
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
 @keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -603,9 +712,9 @@ section {
 --------------------------------------------------------------*/
 /* Base styles for .about section */
 .about {
-  background: linear-gradient(to bottom, #E0E5EC, #F0F4F9, #F8FAFC, #FDFEFE, #FCFCFD);
+  background-color:#002244;
+  color: whitesmoke;
   padding: 40px;
-  border-radius: 8px;
   font-family: 'Poppins',sans-serif;
 }
 .about .content h3 {
@@ -883,12 +992,18 @@ section {
 >>>>>>> 66b15de7c640b3f8a890a3396e6d1d277b54f5fe
 #features
 --------------------------------------------------------------*/
+.team{
+  background-color:#002244;
+  color: whitesmoke;
+}
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #fff;
+  color: black;
+  font-weight: 700;
   transition: 0.2s;
 }
 
@@ -981,6 +1096,11 @@ section {
 /*--------------------------------------------------------------
 #testimonials
 --------------------------------------------------------------*/
+
+.testimonials{
+  background-color:#002244;
+  color: whitesmoke;
+}
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1005,12 +1125,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #2c4964;
+  color:white;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: white;
   margin: 0 0 0 45px;
 }
 
@@ -1043,6 +1163,7 @@ section {
   position: relative;
   z-index: 1;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 .testimonials .swiper-pagination {
@@ -1064,13 +1185,17 @@ section {
 
 @media (max-width: 767px) {
   .testimonials {
-    margin: 30px 10px;
+    margin:0px
   }
 }
 
 /*--------------------------------------------------------------
 #portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  background-color:#002244;
+  color: whitesmoke;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1092,7 +1217,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color:white;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
@@ -1474,6 +1599,23 @@ section {
     max-width: 70%; /* Adjust as needed */
   }
 }
+.card {
+  border: none; /* Remove card border if necessary */
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.card-img {
+  max-width: 100%;
+  height: auto; /* Ensure image doesn't overflow card */
+  border-radius: 15px;
+}
+
+.card-body {
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
 
 
 /*Footer*/
@@ -1650,3 +1792,15 @@ section {
   font-size: large;
   color: #E0E5EC;
 }
+.p{
+  text-align: justify;
+
+}
+
+@media screen and (max-width:576px){
+  .p{
+    text-align: justify;
+    font-size: 0.9em;
+  }
+}
+
