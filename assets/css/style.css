@@ -776,7 +776,7 @@ section {
   justify-content: center; /* Center content horizontally */
 }
 
-.row.content p {
+.row.content p{
   text-align: justify;
   font-size: 1.2em;
 }
@@ -788,7 +788,7 @@ section {
   }
 
   .row.content p {
-    text-align: unset; /* Center text align for mobile devices */
+    text-align:justify; /* Center text align for mobile devices */
   }
 }
 
@@ -796,7 +796,7 @@ section {
 .updates-container {
   border: 2px solid #007bff;
   border-radius: 8px;
-  padding: 20px;
+  padding: 3c0px;
   background-color: #f8f9fa;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-height: 400px;
