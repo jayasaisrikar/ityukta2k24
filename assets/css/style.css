@@ -474,6 +474,7 @@ h6 {
   #hero {
       background-position: center;
   }
+  
 
   #hero-but {
       display: flex;
@@ -486,11 +487,11 @@ h6 {
   #hero .btn-get-started1 {
       font-family: "Poppins", sans-serif;
       font-weight: 500;
-      font-size: 14px; /* Decrease font size */
+      font-size:14px; /* Decrease font size */
       letter-spacing: 1px;
       display: inline-block;
-      padding: 7px 15px; /* Decrease padding */
-      border-radius: 30px;
+      padding: 5px 13px; /* Decrease padding */
+      border-radius: 20px;
       transition: 0.5s;
       margin-top: 30px;
       color: #fff;
@@ -631,7 +632,7 @@ h6 {
 }
 @media screen and (max-width:576px) {
   #hero .new-hero h1 {
-    font-family: 'YourFont', sans-serif;
+    font-family:cursive;
     font-size: 4em; 
     line-height:1.5;
     text-align: center;
@@ -640,6 +641,14 @@ h6 {
   .subtext{
     text-align: center;
     font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  #hero .btn-get-started,
+  #hero .btn-get-started1 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+    padding: 8px 20px; /* Adjust padding for smaller screens */
+    margin-top: 20px; /* Reduce margin-top for smaller screens */
   }
 }
 @keyframes up-down {
