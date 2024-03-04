@@ -16,13 +16,14 @@ body {
 
 
 #hero .new-hero h1 {
-  font-family: 'YourFont', sans-serif;
-  font-size: 6rem; /* Adjust the font size as needed */
+  font-family:cursive;
+  font-size: 6rem;
+ /* Adjust the font size as needed */
 
 }
 
 .subtext{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:cursive;
   font-size: 4.5em;
   text-align: center;
   
@@ -30,7 +31,8 @@ body {
 
 /* Font style for the hero section */
 #hero h1 {
-    font-family: 'YourFont', sans-serif; /* Change 'YourFont' to the desired font family */
+  font-family:cursive;
+  /* Change 'YourFont' to the desired font family */
     font-size: 2.5rem; /* Adjust the font size as needed */
 }
 
@@ -483,7 +485,22 @@ h6 {
       align-items: center;
   }
 
-  #hero .btn-get-started,
+  #hero .btn-get-started{
+    font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size:14px; /* Decrease font size */
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 5px 13px; /* Decrease padding */
+      border-radius: 20px;
+      transition: 0.5s;
+      margin-top: 30px;
+      
+      border: 2px solid #fff;
+      margin-left: 6px;
+      background: #fff;
+      color: #5846f9;
+  }
   #hero .btn-get-started1 {
       font-family: "Poppins", sans-serif;
       font-weight: 500;
@@ -499,7 +516,7 @@ h6 {
       margin-left: 6px;
   }
 
-  #hero .btn-get-started:hover,
+  
   #hero .btn-get-started1:hover {
       background: #fff;
       color: #5846f9;
@@ -536,8 +553,9 @@ h6 {
   border-radius: 30px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
+  color: #5846f9;
   border: 2px solid #fff;
+  background: #fff;
 }
 
 #hero .btn-get-started1{
@@ -788,6 +806,8 @@ section {
 .row.content p{
   text-align: justify;
   font-size: 1.2em;
+  white-space: normal; 
+  word-wrap: break-word;
 }
 
 /* Media query for mobile devices */
@@ -797,7 +817,14 @@ section {
   }
 
   .row.content p {
-    text-align:justify; /* Center text align for mobile devices */
+    text-align:justify;
+    font-size: 1em;
+  
+      white-space: normal; 
+      word-wrap: break-word;
+  
+  
+    /* Center text align for mobile devices */
   }
 }
 
