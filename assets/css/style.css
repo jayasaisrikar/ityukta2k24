@@ -725,6 +725,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  
 }
 
 .section-title h2::after {
@@ -1630,6 +1631,7 @@ section {
 .cliens {
   padding: 12px 0;
   text-align: center;
+  margin: 0;
 }
 
 .cliens .row {
